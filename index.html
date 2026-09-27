@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio — simulation, robotics, physical AI, XR and automotive systems.">
+<title>Engineering Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="brand-mark"></span>Engineering Portfolio</a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#research">R&amp;D</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero2">
+    <div class="wrap">
+      <div class="hero2-copy">
+        <h1>
+          <span>Build</span><span>the</span>
+          <span class="headline-pill" aria-hidden="true"></span>
+          <span>physical</span><span>world</span><span>before</span><span>it's</span><span>real.</span>
+        </h1>
+        <p class="lede">Simulation systems, sensor models and immersive interfaces for robotics, autonomous vehicles and physical AI — tested before it touches the real world.</p>
+        <div class="hero2-cta">
+          <a class="btn-pill-outline" href="#projects">See the work</a>
+          <a class="btn-circle" href="#contact" aria-label="Get in touch">↘</a>
+        </div>
+        <div class="hero2-stats">
+          <div><strong>06</strong><span>Projects</span></div>
+          <div><strong>04</strong><span>Focus areas</span></div>
+        </div>
+      </div>
+
+      <div class="hero2-visual">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" stroke="url(#g)" stroke-width="1">
+            <circle cx="100" cy="100" r="70" opacity=".5"/>
+            <circle cx="100" cy="100" r="50" opacity=".7"/>
+            <circle cx="100" cy="100" r="30" opacity=".9"/>
+          </g>
+          <g fill="#ff9d4d">
+            <circle cx="100" cy="30" r="2.4"/><circle cx="151" cy="65" r="2"/><circle cx="151" cy="135" r="2"/>
+            <circle cx="100" cy="170" r="2.4"/><circle cx="49" cy="135" r="2"/><circle cx="49" cy="65" r="2"/>
+            <circle cx="100" cy="50" r="1.8"/><circle cx="135" cy="76" r="1.6"/><circle cx="135" cy="124" r="1.6"/>
+            <circle cx="100" cy="150" r="1.8"/><circle cx="65" cy="124" r="1.6"/><circle cx="65" cy="76" r="1.6"/>
+            <circle cx="100" cy="100" r="4"/>
+          </g>
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff5d01"/>
+              <stop offset="1" stop-color="#8b5cf6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="hero2-pager">
+          <span class="line"></span>
+          <span>FEATURED — PHYSICAL AI GYM</span>
+          <span class="line"></span>
+        </div>
+        <div class="hero2-index">
+          <span>01</span>
+          <span class="track"><span class="dot"></span></span>
+          <span>06</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="strip2">
+    <div class="wrap">
+      <span>Unreal Engine</span><span>Unity</span><span>ROS2</span><span>LiDAR</span><span>Reinforcement learning</span><span>XR</span><span>Synthetic data</span>
+    </div>
+  </div>
+
+  <section class="section" id="projects">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Selected work</p>
+        <h2>Projects built for real-world systems</h2>
+        <p>From sensor-level simulation to immersive robot control, each project is built around a practical engineering problem.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card" style="--ca:#ff5d01;--cas:rgba(255,93,1,.14)">
+          <a class="card-link" href="projects/vehicle-dynamics.html" aria-label="Vehicle Dynamics"></a>
+          <div class="card-icon">▲</div>
+          <h3>Vehicle Dynamics</h3>
+          <p>Turns static meshes with body and wheel assets into drivable vehicles through a streamlined physics workflow.</p>
+          <span class="tag">Unreal Engine · Plugin</span>
+        </div>
+
+        <div class="card" style="--ca:#8b5cf6;--cas:rgba(139,92,246,.14)">
+          <a class="card-link" href="projects/lidar-simulation.html" aria-label="LiDAR Simulation"></a>
+          <div class="card-icon">◎</div>
+          <h3>LiDAR Simulation</h3>
+          <p>Configurable LiDAR models that generate synthetic perception data for autonomous-system testing.</p>
+          <span class="tag">Sensor simulation</span>
+        </div>
+
+        <div class="card" style="--ca:#ff3fb0;--cas:rgba(255,63,176,.14)">
+          <a class="card-link" href="projects/xr-teleoperation.html" aria-label="XR Teleoperation"></a>
+          <div class="card-icon">◇</div>
+          <h3>XR Teleoperation</h3>
+          <p>Immersive human-to-robot interfaces for remote operation and dexterous manipulation.</p>
+          <span class="tag">XR · Robotics</span>
+        </div>
+
+        <div class="card" style="--ca:#22c55e;--cas:rgba(34,197,94,.14)">
+          <a class="card-link" href="projects/physical-ai.html" aria-label="Physical AI Gym"></a>
+          <div class="card-icon">◐</div>
+          <h3>Physical AI Gym</h3>
+          <p>Physics-driven environments for perception, navigation and robotic manipulation research.</p>
+          <span class="tag">Physical AI · RL</span>
+        </div>
+
+        <div class="card" style="--ca:#3aa0ff;--cas:rgba(58,160,255,.14)">
+          <a class="card-link" href="projects/automotive-simulation.html" aria-label="Automotive Simulation"></a>
+          <div class="card-icon">▣</div>
+          <h3>Automotive Simulation</h3>
+          <p>Virtual vehicles, sensors and environments built for ADAS and autonomous-driving development.</p>
+          <span class="tag">Automotive · ROS2</span>
+        </div>
+
+        <div class="card" style="--ca:#06b6d4;--cas:rgba(6,182,212,.14)">
+          <a class="card-link" href="projects/defense-ugv.html" aria-label="Defense and UGV Simulation"></a>
+          <div class="card-icon">◈</div>
+          <h3>Defense &amp; UGV Simulation</h3>
+          <p>Simulation platforms for autonomous ground vehicles, sensors, actuators and mission scenarios.</p>
+          <span class="tag">UGV · Defense</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="research" style="border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Research &amp; development</p>
+        <h2>Where simulation meets intelligence</h2>
+      </div>
+      <div class="feature-grid">
+        <article style="--ca:#22c55e">
+          <h3>Physical AI</h3>
+          <p>Physics-based environments for robot learning, perception, navigation and manipulation, connected back to real-world data.</p>
+        </article>
+        <article style="--ca:#ff3fb0">
+          <h3>Teleoperation</h3>
+          <p>XR interfaces that put humans inside the control loop, including dexterous manipulation and immersive robot interaction.</p>
+        </article>
+        <article style="--ca:#06b6d4">
+          <h3>Defense</h3>
+          <p>Virtual environments for UGVs, autonomous systems, sensor testing and mission-oriented workflows.</p>
+        </article>
+        <article style="--ca:#3aa0ff">
+          <h3>Automotive</h3>
+          <p>Sensor simulation, synthetic data, vehicle dynamics and virtual testing for autonomous driving.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="toolbox" style="border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Toolbox</p>
+        <h2>From physics to perception</h2>
+        <p>Engineering across the stack — real-time rendering, vehicle physics, ROS2 interfaces, sensor models, XR interaction and AI training environments.</p>
+      </div>
+      <div class="tech-wrap">
+        <span>Unreal Engine</span><span>Unity</span><span>C++</span><span>Blueprints</span><span>ROS / ROS2</span><span>LiDAR</span><span>Physics simulation</span><span>XR / VR</span><span>Reinforcement learning</span><span>Synthetic data</span><span>Sensor modeling</span><span>Digital twins</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about" style="border-top:1px solid var(--line)">
+    <div class="wrap">
+      <div class="about">
+        <p class="kicker" style="color:var(--accent);font-weight:600;font-size:13px;margin-bottom:14px">About</p>
+        <p>I work across real-time simulation, robotics, sensor modeling, XR and autonomous systems — turning complex physical problems into testable digital environments.</p>
+        <p>The focus stays simple: build systems that help engineers develop, validate and understand intelligent machines before deployment.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <h2>Have a physical-world problem to simulate?</h2>
+      <p>Let's build the virtual system that helps solve it.</p>
+      <div class="cta-actions">
+        <a class="btn btn-primary" href="mailto:your-email@example.com">Start a conversation</a>
+        <a class="btn btn-ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="copy">© 2026 Engineering Portfolio</span>
+    <div class="foot-links">
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:your-email@example.com">Email</a>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>
